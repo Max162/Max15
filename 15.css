@@ -1,0 +1,15 @@
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 40%;
+    color: green;
+}
+
+td:nth-last-child(1) {
+    background-color: yellow;
+}
+
+td:first-of-type {
+    background-color: red;
+}
